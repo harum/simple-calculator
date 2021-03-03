@@ -19,7 +19,7 @@ export default {
       format: 'amd',
     },
     {
-      file: 'dist/bundle.es.js',
+      file: 'dist/bundle.esm.js',
       format: 'es',
     },
     {
