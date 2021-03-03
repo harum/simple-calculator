@@ -1,5 +1,5 @@
 {
-  "name": "simple-calculator",
+  "name": "@harum/simple-calculator",
   "version": "1.0.0",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.es.js",
@@ -13,5 +13,21 @@
   "files": [
     "src",
     "dist"
-  ]
+  ],
+  "description": "Simple calculator functions",
+  "dependencies": {
+    "estree-walker": "^1.0.1",
+    "fsevents": "^2.3.2",
+    "picomatch": "^2.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harum"
+  },
+  "keywords": [
+    "simple",
+    "calculator"
+  ],
+  "author": "Putu Harum Bawa",
+  "license": "ISC"
 }
